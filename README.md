@@ -31,3 +31,7 @@ To make your own:
 ----
 Original CLIP Gradient Ascent Script: Used with permission by Twitter / X: [@advadnoun](https://twitter.com/advadnoun)
 - GG Bridge images: Via Google & Google Image Search, downsized to minimum resolution 336x336 pixels, limited to 5 (fair use).
+----
+~ CLIP's ADVERB neuron activation value + 1000, gazing at the GG Bridge ~
+
+![adverb-neuron-good](https://github.com/zer0int/Golden-Gate-CLIP/assets/132047210/61fc6fa9-08de-4bcd-bf15-2b4cbba07817)
