@@ -37,7 +37,8 @@ many_tokens = 4 # 4-6 is best; much more will be arbitrary.
 input_dims = 224 # 336 for ViT-L/14@336px
 
 # Now scroll ALL THE WAY DOWN to loop()!
-
+lestiforgot = 'TOK'
+os.makedirs(lestiforgot, exist_ok=True)
 
 parser = argparse.ArgumentParser(description="CLIP Gradient Ascent")
 parser.add_argument("--image_path", type=str, required=True, help="Path to the input image, e.g.: --image_path goldengate/goldengate1.png")
