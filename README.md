@@ -1,6 +1,10 @@
 ## ⭐ 🌉 Golden Gate CLIP ✨🤖 🥳 🌉
 ----
-
+### Changes 21/June/24
+- Add i-clip-golden-gate-getter-TEXT-all-c_fc-from-wordlist.py
+- Obtains top (by activation value) text transformer features for wordlist
+- Example alltexts.txt contains "strange" CLIP self-predicted words describing Gaussian noise in images
+----
 Inspired by [Anthrophic's Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude), this repo obtains CLIP Vision Transformer feature activations for a set of images, compares which feature indices are present in all images, and then manipulates the activation value for that neuron in the CLIP Vision Transformer MLP c_fc (Fully Connected Layer).
 
 Result: CLIP predicts "San Francisco, Bay Area, sf, sfo" even for an image that it otherwise (rightfully!) describes as being noise.
